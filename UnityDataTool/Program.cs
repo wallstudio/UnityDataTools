@@ -13,6 +13,8 @@ public static class Program
 {
     public static async Task<int> Main(string[] args)
     {
+        // args = new []{ "dump", @"C:\Users\huser\Desktop\DyBranch\Assets\StreamingAssets\20240920_021908\mat0.ab", };
+
         UnityFileSystem.Init();
 
         var rootCommand = new RootCommand();
